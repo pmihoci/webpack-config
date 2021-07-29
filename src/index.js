@@ -1,7 +1,14 @@
-const elverShieldRecepie = {
+const elvenShieldRecepie = {
     leatherStrips: 2,
     ironIngot: 1,
-    refinedMoonstore: 4
+    refinedMoonstone: 4
 }
 
-console.log(elverShieldRecepie)
+const elvenGauntletsRecepie = {
+    ...elvenShieldRecepie,
+    leather: 1,
+    refinedMoonstone: 4,
+}
+
+console.log(elvenShieldRecepie)
+console.log(elvenGauntletsRecepie)
